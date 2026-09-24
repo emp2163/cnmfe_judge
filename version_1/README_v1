@@ -1,1 +1,4 @@
 # Trash CNN lol 
+Used the caiman component evaluation CNN as a template model for our use for a 1p CNN
+
+However, it performed poorly. Even with 7 really diverse inputs, the model was not able to realiably learn how to distinguish between accepted versus rejected components. 
