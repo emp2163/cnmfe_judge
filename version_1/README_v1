@@ -1,4 +1,6 @@
 # Trash CNN lol 
 Used the caiman component evaluation CNN as a template model for our use for a 1p CNN
 
-However, it performed poorly. Even with 7 really diverse inputs, the model was not able to realiably learn how to distinguish between accepted versus rejected components. 
+However, it performed poorly. The CNN learned to detect neurons, but not to discriminate them from difficult non-neuronal components. 
+Increasing training diversity did not solve this precision problem (recall = 0.84, precision = 0.36, F1 = 0.48). 
+When increased training diversity failed to improve CNN generalization, cue Occam's razor, we redirected effort toward a simpler solution, an interpretable supervised scoring system with clearer paths for optimization and validation.
